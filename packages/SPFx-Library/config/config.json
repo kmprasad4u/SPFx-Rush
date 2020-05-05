@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "sample-library-library": {
+      "components": [
+        {
+          "entrypoint": "./lib/libraries/sampleLibrary/SampleLibraryLibrary.js",
+          "manifest": "./src/libraries/sampleLibrary/SampleLibraryLibrary.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SampleLibraryLibraryStrings": "lib/libraries/sampleLibrary/loc/{locale}.js"
+  }
+}

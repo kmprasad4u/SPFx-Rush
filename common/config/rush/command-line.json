@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/command-line.schema.json",
+  "commands": [{
+    "commandKind": "bulk",
+    "name": "package",
+    "summary": "Creates packages.",
+    "description": "Creates sharepoint framework packages by running clean, bundle, package-solution commands.",
+    "enableParallelism": true
+  }],
+  "parameters": [
+  ]
+}
