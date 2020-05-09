@@ -1,5 +1,6 @@
 ## SPFx-Rush
-Using Rush with SPFx projects
+Using Rush & SPFx-Fast-Serve with SPFx projects
+https://github.com/s-KaiNet/spfx-fast-serve/issues/6
 
 ### Installing Packages (one of below commands)
 > rush update [--full]
@@ -11,8 +12,8 @@ Using Rush with SPFx projects
 > rush build
 
 ### Serving
-Change Site Url in src\SPFx-WebPart\Config\serve.json
-* In Termainal 1
+* Change Site Url in packages\SPFx-WebPart\Config\serve.json
+* In Terminal 1
     * cd packages\SPFx-Library
     * npm run serve
 * In Terminal 2
@@ -27,3 +28,4 @@ Change Site Url in src\SPFx-WebPart\Config\serve.json
 ### References
 * https://www.vrdmn.com/2019/04/using-microsoft-rush-to-manage-spfx.html
 * https://rushjs.io/pages/intro/get_started/
+* https://github.com/s-KaiNet/spfx-fast-serve/blob/master/LibraryComponents.md
