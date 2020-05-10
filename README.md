@@ -1,5 +1,6 @@
 ## SPFx-Rush
 Using Rush & SPFx-Fast-Serve with SPFx projects
+https://github.com/microsoft/rushstack/issues/1863
 https://github.com/s-KaiNet/spfx-fast-serve/issues/6
 
 ### Installing Packages (one of below commands)
