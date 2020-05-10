@@ -6,6 +6,15 @@
     "summary": "Creates packages.",
     "description": "Creates sharepoint framework packages by running clean, bundle, package-solution commands.",
     "enableParallelism": true
+  },{
+    "commandKind": "bulk",
+    "name": "serve",
+    "summary": "Serves solutions.",
+    "description": "Serves solutions. Use with --to <package-name> to serve a webpart solution along with its libraries",
+    "safeForSimultaneousRushProcesses": false,
+    "ignoreDependencyOrder": true,
+    "enableParallelism": true,
+    "ignoreMissingScript": true
   }],
   "parameters": [
   ]

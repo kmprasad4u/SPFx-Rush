@@ -11,7 +11,10 @@ https://github.com/s-KaiNet/spfx-fast-serve/issues/6
 ### Building the code
 > rush build
 
-### Serving
+### Serving 
+> rush serve --to sp-fx-web-part2 --verbose
+
+### Serving (Traditional)
 * Change Site Url in packages\SPFx-WebPart\Config\serve.json
 * In Terminal 1
     * cd packages\SPFx-Library
